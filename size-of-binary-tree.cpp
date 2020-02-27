@@ -8,6 +8,8 @@ void inorder(Node* node,vector<int>&v)
     inorder(node->left,v);
     v.push_back(node->data);
     inorder(node->right,v);
+
+    
 }
 int getSize(Node* node)
 {
